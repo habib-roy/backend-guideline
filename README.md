@@ -238,6 +238,7 @@ There are at least three common cases we found when naming an endpoint :
 Do Not GRANT ALL PRIVILEGES to Production Account.
 - Only have access to 1 specific database
 - Only manipulate data (select, insert, update and delete)
+- Cannot delete database
 - Cannot delete table or collection
 
 ## Application Flow
